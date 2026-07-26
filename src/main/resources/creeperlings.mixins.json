@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "keeganator917.creeperlings.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "CreeperEntityAccessor",
+    "CreeperMixin",
+    "LivingEntityMixin",
+    "SwellGoalMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}
