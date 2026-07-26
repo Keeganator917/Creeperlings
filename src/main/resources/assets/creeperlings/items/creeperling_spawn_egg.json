@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "creeperlings:item/creeperling_spawn_egg"
+  }
+}

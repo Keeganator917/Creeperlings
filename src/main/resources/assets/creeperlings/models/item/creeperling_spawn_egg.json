@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "creeperlings:item/creeperling_spawn_egg"
+  }
+}

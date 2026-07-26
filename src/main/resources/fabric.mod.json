@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "creeperlings",
+	"version": "${version}",
+	"name": "Creeperlings",
+	"description": "Removes creepers greifing blocks and makes them spawn creeperlings instead",
+	"authors": [
+		"Keeganator917"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/creeperlings/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.keeganator917.creeperlings.Creeperlings"
+		],
+		"client": [
+			"com.keeganator917.creeperlings.CreeperlingsClient"
+		],
+		"fabric-datagen": [
+			"com.keeganator917.creeperlings.CreeperlingsDataGenerator"
+		]
+	},
+	"mixins": [
+		"creeperlings.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
